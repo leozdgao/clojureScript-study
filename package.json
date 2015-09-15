@@ -1,0 +1,11 @@
+{
+  "name": "clojure_script_strudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "java -cp \"cljs.jar;src\" clojure.main build.clj"
+  },
+  "author": "",
+  "license": "ISC"
+}
