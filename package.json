@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "java -cp \"cljs.jar;src\" clojure.main build.clj"
+    "start": "java -cp cljs.jar:src clojure.main build.clj",
+    "watch": "java -cp cljs.jar:src clojure.main watch.clj",
+    "release": "java -cp cljs.jar:src clojure.main release.clj"
   },
   "author": "",
   "license": "ISC"
